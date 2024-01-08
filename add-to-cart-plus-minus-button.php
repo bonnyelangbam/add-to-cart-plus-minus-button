@@ -103,3 +103,10 @@ if ( ! class_exists( 'BE_Plus_Minus' ) ) {
 }
 
 BE_Plus_Minus::get_instance();
+
+// Removing Default Up & Down Aroww
+add_action('wp_enqueue_scripts', 'callback_for_setting_up_scripts');
+function callback_for_setting_up_scripts() {
+    wp_register_style('add-to-cart-plus-minus-button', plugins_url('plus-minus.css', __FILE__));
+    wp_enqueue_style('add-to-cart-plus-minus-button');
+}
