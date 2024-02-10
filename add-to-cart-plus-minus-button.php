@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WooCommerce Custom Add To Cart Plus & Minus Button
  * Description: To add custom plus and minus button for add to cart items.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Bonny Elangbam
  * Author URI: https://dev.bonnyelangbam.com/
  * Text Domain: add-to-cart-plus-minus-button
