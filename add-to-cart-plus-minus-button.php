@@ -107,6 +107,7 @@ add_to_cart_Plus_Minus_Button::get_instance();
 // Removing Default Up & Down Aroww
 add_action('wp_enqueue_scripts', 'callback_for_setting_up_scripts');
 function callback_for_setting_up_scripts() {
-    wp_register_style('add-to-cart-plus-minus-button', plugins_url('plus-minus.css', __FILE__));
+    $plugin_version = '1.0.0'; // Change this to your plugin's version number.
+    wp_register_style('add-to-cart-plus-minus-button', plugins_url('plus-minus.css', __FILE__), array(), $plugin_version);
     wp_enqueue_style('add-to-cart-plus-minus-button');
 }
