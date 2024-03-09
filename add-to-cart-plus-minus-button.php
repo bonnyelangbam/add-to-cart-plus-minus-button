@@ -1,25 +1,25 @@
 <?php
 /**
- * Plugin Name: WooCommerce Custom Add To Cart Plus & Minus Button
+ * Plugin Name: Custom Add To Cart Plus & Minus Button
  * Description: To add custom plus and minus button for add to cart items.
- * Version: 1.0.1
+ * Version: 1.0.0
  * Author: Bonny Elangbam
  * Author URI: https://dev.bonnyelangbam.com/
  * Text Domain: add-to-cart-plus-minus-button
  * Requires PHP: 7.0
- * Requires at least: 5.8
+ * Requires at least: 4.6
  *
- * @package WooCommerce Custom Add To Cart Plus & Minus Button
+ * @package Custom Add To Cart Plus & Minus Button
  */
 
 defined( 'ABSPATH' ) || exit(); // Exit if accessed directly.
 
-if ( ! class_exists( 'BE_Plus_Minus' ) ) {
+if ( ! class_exists( 'add_to_cart_Plus_Minus_Button' ) ) {
 
     /**
      * Main Class.
      */
-    class BE_Plus_Minus {
+    class add_to_cart_Plus_Minus_Button {
 
         /**
          * The instance variable of the class.
@@ -102,7 +102,7 @@ if ( ! class_exists( 'BE_Plus_Minus' ) ) {
     }
 }
 
-BE_Plus_Minus::get_instance();
+add_to_cart_Plus_Minus_Button::get_instance();
 
 // Removing Default Up & Down Aroww
 add_action('wp_enqueue_scripts', 'callback_for_setting_up_scripts');
