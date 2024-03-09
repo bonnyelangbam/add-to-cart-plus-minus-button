@@ -1,15 +1,14 @@
 <?php
-/**
- * Plugin Name: Custom Add To Cart Plus & Minus Button
- * Description: To add custom plus and minus button for add to cart items.
- * Version: 1.0.0
- * Author: Bonny Elangbam
- * Author URI: https://dev.bonnyelangbam.com/
- * Text Domain: add-to-cart-plus-minus-button
- * Requires PHP: 7.0
- * Requires at least: 4.6
- *
- * @package Custom Add To Cart Plus & Minus Button
+/*
+ Plugin Name: Custom Add To Cart Plus & Minus Button
+ Description: To add custom plus and minus button for add to cart items.
+ Version: 1.0.0
+ Author: Bonny Elangbam
+ Author URI: https://dev.bonnyelangbam.com/
+ Text Domain: add-to-cart-plus-minus-button
+ WC requires at least: 5.0
+ WC tested up to: 8.6
+ @package Custom Add To Cart Plus & Minus Button
  */
 
 defined( 'ABSPATH' ) || exit(); // Exit if accessed directly.
