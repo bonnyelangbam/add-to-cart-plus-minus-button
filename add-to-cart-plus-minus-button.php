@@ -110,3 +110,10 @@ function callback_for_setting_up_scripts() {
     wp_register_style('add-to-cart-plus-minus-button', plugins_url('plus-minus.css', __FILE__), array(), $plugin_version);
     wp_enqueue_style('add-to-cart-plus-minus-button');
 }
+
+
+add_action( 'before_woocommerce_init', function() {
+	if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+		\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+	}
+} );
