@@ -1,24 +1,27 @@
 <?php
 /*
- Plugin Name: Custom Add To Cart Plus & Minus Button
- Description: To add custom plus and minus button for add to cart items.
- Version: 1.0.0
- Author: Bonny Elangbam
- Author URI: https://dev.bonnyelangbam.com/
- Text Domain: add-to-cart-plus-minus-button
- WC requires at least: 5.0
- WC tested up to: 8.6
- @package Custom Add To Cart Plus & Minus Button
+ * Plugin Name:       Custom Add To Cart Plus & Minus Button
+ * Description:       To add custom plus and minus button for add to cart items.
+ * Version:           1.0.0
+ * Requires at least: 5.2
+ * Requires PHP:      7.2
+ * Author:            Bonny Elangbam
+ * Author URI:        https://dev.bonnyelangbam.com/
+ * WC requires at least: 5.0
+ * WC tested up to: 8.6
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       add-to-cart-plus-minus-button
  */
 
 defined( 'ABSPATH' ) || exit(); // Exit if accessed directly.
 
-if ( ! class_exists( 'add_to_cart_Plus_Minus_Button' ) ) {
+if ( ! class_exists( 'atc_Plus_Minus_Button' ) ) {
 
     /**
      * Main Class.
      */
-    class add_to_cart_Plus_Minus_Button {
+    class atc_Plus_Minus_Button {
 
         /**
          * The instance variable of the class.
@@ -101,7 +104,7 @@ if ( ! class_exists( 'add_to_cart_Plus_Minus_Button' ) ) {
     }
 }
 
-add_to_cart_Plus_Minus_Button::get_instance();
+atc_Plus_Minus_Button::get_instance();
 
 // Removing Default Up & Down Aroww
 add_action('wp_enqueue_scripts', 'callback_for_setting_up_scripts');
