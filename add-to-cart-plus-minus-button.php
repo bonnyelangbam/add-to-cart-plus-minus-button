@@ -9,8 +9,8 @@
  * Author URI:        https://dev.bonnyelangbam.com/
  * WC requires at least: 5.0
  * WC tested up to: 8.6
- * License:           GPL v2 or later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * License:           GPL v3 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       add-to-cart-plus-minus-button
  */
 
