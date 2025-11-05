@@ -9,7 +9,7 @@
  * License: GPLv3 or later
  * Requires at least: 4.6
  * Requires PHP: 7.2
- * Tested up to: 6.4
+ * Tested up to: 6.8
  * WC requires at least: 3.0
  * WC tested up to: 8.0
  */
