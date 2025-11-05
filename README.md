@@ -1,11 +1,11 @@
 === Custom Add To Cart Plus & Minus Button ===
 Contributors: Bonny Elangbam
-Tags: woocommerce, quantity, plus, minus, buttons, e-commerce, shopping
+Tags: woocommerce, quantity, plus, minus, e-commerce
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 4.6
 Requires PHP: 7.2
-Tested up to: 6.4
+Tested up to: 6.8
 Stable tag: 1.0.0
 WC requires at least: 3.0
 WC tested up to: 8.0
